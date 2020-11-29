@@ -1,0 +1,118 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-29T21:13:28.850Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1102066000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "yandex_search_checker.Yatest.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "A picture in \"files\" directory required",
+        "description": "",
+        "id": "find-description-from-search;a-picture-in-\"files\"-directory-required",
+        "after": [
+          {
+            "result": {
+              "duration": 103670000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "yandex_search_checker.Yatest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1194751000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to Yandex",
+            "match": {
+              "location": "yandex_search_checker.Yatest.navigateToYandex()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 450970000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go on Pictures page",
+            "match": {
+              "location": "yandex_search_checker.Yatest.goOnPicturePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@aria-label\u003d\u0027Поиск по изображению\u0027]\"}\n  (Session info: chrome\u003d87.0.4280.67)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Admins-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:1480:5afa:2075:de51%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.67, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: /var/folders/sg/8_m0fqt9001...}, goog:chromeOptions: {debuggerAddress: localhost:61077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 0286e91bf938765d2090cb483dc0def4\n*** Element info: {Using\u003dxpath, value\u003d//button[@aria-label\u003d\u0027Поиск по изображению\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat yandex_search_checker.Yatest.clickOnSearchByPicture(Yatest.java:53)\n\tat ✽.Click on search by picture(file:///Users/farida/IdeaProjects/yula_picture_checker/src/test/resources/features/finddescriptionfromsearch.feature:7)\n",
+              "duration": 34396000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Click on search by picture",
+            "match": {
+              "location": "yandex_search_checker.Yatest.clickOnSearchByPicture()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 690000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter picture for searching",
+            "match": {
+              "location": "yandex_search_checker.Yatest.enterPictureForSearching()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Check picture description below.",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@finddescriptionfromsearch"
+          }
+        ]
+      }
+    ],
+    "name": "Find description from search",
+    "description": "",
+    "id": "find-description-from-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/finddescriptionfromsearch.feature",
+    "tags": [
+      {
+        "name": "@finddescriptionfromsearch",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

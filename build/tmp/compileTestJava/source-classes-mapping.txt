@@ -1,0 +1,6 @@
+yandex_search_checker/PageObjectBase.java
+ yandex_search_checker.PageObjectBase
+yandex_search_checker/testRunner.java
+ yandex_search_checker.testRunner
+yandex_search_checker/Yatest.java
+ yandex_search_checker.Yatest
